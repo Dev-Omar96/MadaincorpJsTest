@@ -1,0 +1,53 @@
+.personsList {
+    max-width: 80%;
+    margin: auto;
+}
+
+.card {
+    max-width: 50%;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+.card h3 {
+    margin-top: 0;
+}
+
+button {
+    background-color: #22242a;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #636a6f;
+}
+
+.filter-container {
+    margin: auto;
+    display: flex;
+    max-width: 50%;
+    margin-bottom: 5px;
+}
+
+button.active {
+    background-color: #2ecc71;
+}
